@@ -1,0 +1,8 @@
+file "$(MOTOR)/db/motor.db"
+{
+pattern
+# N 2: UTM100PE1 100 full steps/rev, 10:1 gear box, 1mm lead screw pitch = 1mm/100/10 = 0.001
+
+{P,             N,  M,                 DTYP,      C,  S,  DESC,        EGU,  DIR,  VELO,  VBAS,  ACCL,  BDST,  BVEL,  BACC,  MRES,     PREC,  DHLM,  DLLM,  INIT}
+{XF:04BMB-OP:,  1,  "MBV-Cam:Y:Mtr",   "ESP300",  1,  0,  "MBV-Cam:Y", mm,   Pos,  1.00,  0.1,   0.2,   0,     1,     0.2,   0.001,    3,     50,   -50     ""}
+}

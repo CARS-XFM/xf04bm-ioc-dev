@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# generic procserver wrapper 
+PORT=20063
+LOGFILE=/epics/logs/iocPINK.log
+
+telnet localhost $PORT

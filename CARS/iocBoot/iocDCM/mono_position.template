@@ -1,0 +1,6 @@
+file "$(CARS)/CARSApp/Db/GSE_CD_MonoPositions.template"
+{
+pattern
+{P,            MONO,  EPS_111,   EPS_311,  EPS_220, EPS_PINK,  THETA_MOTOR,  HEIGHT_MOTOR, PITCH_MOTOR, ROLL_MOTOR}
+{XF:04BM-BMB:, En,    junk,      junk,     junk,    junk,      1:m1,         1:m3,         1:m4,        1:m5}
+}

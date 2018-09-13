@@ -1,0 +1,77 @@
+file "$(CARS)/CARSApp/Db/asynMotor.db"
+{
+pattern
+# m1: Settings for In Air encoders / EncoderResolution=0.0000076271186440677966101694915254237                    7.627118644E-06
+# m2: 200 full steps/rev, 64:1 gear box, 5mm lead screw pitch = 5mm/200/64= 0.000390625
+# m3: 200 full steps/rev, 25:1 gear box, 1mm lead screw pitch = 1mm/200/25= 0.0002
+# m4: 200 full steps/rev, 49:1 gear box, 1mm lead screw pitch = 1mm/200/49= 0.00010204081632653061224489795918367
+# m5: 200 full steps/rev, 28:1 gear box, 1mm lead screw pitch = 1mm/200/28= 0.0001785714
+# m8: 200 full steps/rev, 20:1 gear box, 5mm lead screw pitch, 2:1 belt ratio = 5/200/20/2 = 0.000625
+
+{P,              N, M,   DTYP,       PORT, ADDR, DESC,     EGU, DIR, VELO, VBAS, ACCL, BDST, BVEL, BACC, SREV,           UREV, PREC, DHLM, DLLM}
+#{XF:04BM-BMB:1:, 1, m1, "asynMotor", XPS2, 0,   "Theta",   deg, Pos, 5.00, 0,    0.50, 0,    1,    0.2,  131111   , 1,    5,    77,  -3}
+{XF:04BM-BMB:1:, 1, m1, "asynMotor", XPS2, 0,   "Theta",   deg, Pos, 5.00, 0,    0.50, 0,    1,    0.2,  1180   , 0.009,    5,    77,  -3}
+#{XF:04BM-BMB:1:, 1, m1,           "asynMotor", XPS2, 0,   "Theta",      deg,  Pos, 5.00, 0,    0.50, 0,    1,    0.2,  1  , 7.627118644E-06, 5,    77,  -3}
+{XF:04BM-BMB:1:, 2, m2,           "asynMotor", XPS2, 1,   "X-Slide",     mm,  Pos, 0.60, 0,    0.60, 0,    1,    0.2,  2560  , 1,     4,    407, -46.978388814}
+{XF:04BM-BMB:1:, 3, m3,           "asynMotor", XPS2, 2,   "Height",      mm,  Pos, 0.30, 0,    0.50, 0,    1,    0.2,  5000  , 1,     4,    48,   11.5}
+{XF:04BM-BMB:1:, 4, m4,           "asynMotor", XPS2, 3,   "Pitch",       mm,  Pos, 0.15, 0,    0.75, 0,    1,    0.1,  9800  , 1,     4,    2,   -3.253}
+{XF:04BM-BMB:1:, 5, m5,           "asynMotor", XPS2, 4,   "Roll",        mm,  Pos, 0.15, 0,    0.75, 0,    1,    0.1,  5600  , 1,     4,    2.5, -2.935}
+{XF:04BMB-OP:,   8, MBV-Ax:Y:Mtr, "asynMotor", XPS2, 7,   "MBV Y-Axis",  mm,  Pos, 0.10, 0,    0.50, 0,    1,    0.1,  1600  , 1,     4,    39,  -3}
+#{XF:04BM-BMB:1:, 8, m8, "asynMotor", XPS2, 7,   "HRBV",    mm,  Pos, 0.10, 0,    0.50, 0,    1,    0.1,  1600          , 1,    4,    50,  -50}
+
+#{XF:04BM-BMB:1:, 1, m1, "asynMotor", XPS2, 0,   "Theta",   deg, Pos, 5.00, 0,    0.50, 0,    1,    0.2,  1,    0.000007627119                        , 5,    77,  -3}
+#{XF:04BM-BMB:1:, 2, m2, "asynMotor", XPS2, 1,   "X-Slide", mm,  Pos, 0.60, 0,    0.60, 0,    1,    0.2,  1,    0.000390625                           , 4,    407, -46.978388814}
+#{XF:04BM-BMB:1:, 3, m3, "asynMotor", XPS2, 2,   "Height",  mm,  Pos, 0.30, 0,    0.50, 0,    1,    0.2,  1,    0.0002                                , 4,    48,   11.5}
+#{XF:04BM-BMB:1:, 4, m4, "asynMotor", XPS2, 3,   "Pitch",   mm,  Pos, 0.15, 0,    0.75, 0,    1,    0.1,  1,    0.00010204081632653061224489795918367 , 4,    2,   -3.253}
+#{XF:04BM-BMB:1:, 5, m5, "asynMotor", XPS2, 4,   "Roll",    mm,  Pos, 0.15, 0,    0.75, 0,    1,    0.1,  1,    0.00017857142857142857142857142857143 , 4,    2.5, -2.935}
+#{XF:04BM-BMB:1:, 8, m8, "asynMotor", XPS2, 7,   "HRBV",    mm,  Pos, 0.10, 0,    0.50, 0,    1,    0.1,  1,    0.000625                              , 4,    50,  -50}
+
+#{XF:04BMB-OP, 1, {Mono:DCM-Ax:Bragg}Mtr, "asynMotor", XPS2, 0,   "Theta",   deg, Pos, 5.00, 0,    0.50, 0,    1,    0.2,  1,    0.000007627119, 5,    77,   -3}
+#{XF:04BMB-OP, 2, {Mono:DCM-Ax:CE}Mtr   , "asynMotor", XPS2, 1,   "X-Slide", mm,  Pos, 0.60, 0,    0.60, 0,    1,    0.2,  1,    0.000390625000, 4,    407,  -46.978388814}
+#{XF:04BMB-OP, 3, {Mono:DCM-Ax:GapY}Mtr , "asynMotor", XPS2, 2,   "Height",  mm,  Pos, 0.30, 0,    0.50, 0,    1,    0.2,  1,    0.000200000000, 4,    48,   11.5}
+#{XF:04BMB-OP, 4, {Mono:DCM-Ax:CP}Mtr   , "asynMotor", XPS2, 3,   "Pitch",   mm,  Pos, 0.15, 0,    0.75, 0,    1,    0.1,  1,    0.000102040816, 4,    2,    -3.253}
+#{XF:04BMB-OP, 5, {Mono:DCM-Ax:CR}Mtr   , "asynMotor", XPS2, 4,   "Roll",    mm,  Pos, 0.15, 0,    0.75, 0,    1,    0.1,  1,    0.000178571429, 4,    2.5,  -2.935}
+#{XF:04BMB-OP, 8, {HRBV:MBV-Ax:XS}Mtr   , "asynMotor", XPS2, 7,   "HRBV",    mm,  Pos, 0.10, 0,    0.50, 0,    1,    0.1,  1,    0.000625000000, 4,    50,  -50}
+}
+
+file "$(MOTOR)/motorApp/Db/XPS_extra.db"
+{
+pattern
+{P,              R,  PORT, ADDR}
+{XF:04BM-BMB:1:, m1, XPS2, 0}
+{XF:04BM-BMB:1:, m2, XPS2, 1}
+{XF:04BM-BMB:1:, m3, XPS2, 2}
+{XF:04BM-BMB:1:, m4, XPS2, 3}
+{XF:04BM-BMB:1:, m5, XPS2, 4}
+{XF:04BMB-OP:, MBV-Ax:Y:Mtr, XPS2, 7}
+}
+
+file "$(MOTOR)/motorApp/Db/profileMoveController.template"
+{
+pattern
+{P,               R,      PORT, NAXES, NPOINTS, NPULSES, TIMEOUT}
+{XF:04BM-BMB:1:,  EProf:, XPS2, 2,     5000,    5000,    1}
+}
+
+file "$(MOTOR)/db/profileMoveControllerXPS.template"
+{
+pattern
+{P,               R,      PORT, NAXES, NPOINTS, NPULSES, TIMEOUT}
+{XF:04BM-BMB:1:,  EProf:, XPS2, 2,     5000,    5000,    1}
+}
+
+file "$(MOTOR)/motorApp/Db/profileMoveAxis.template"
+{
+pattern
+{P,	          R,	  M,  PORT, ADDR, NPOINTS, NREADBACK, MOTOR,            PREC, TIMEOUT}
+{XF:04BM-BMB:1:,  EProf:, 1,  XPS2, 0,    5000,    5000,      XF:04BM-BMB:1:m1, 5,    1}
+{XF:04BM-BMB:1:,  EProf:, 3,  XPS2, 2,    5000,    5000,      XF:04BM-BMB:1:m3, 4,    1}
+}
+
+file "$(MOTOR)/motorApp/Db/profileMoveAxisXPS.template"
+{
+pattern
+{P,	          R,	  M,  PORT, ADDR, NPOINTS, NREADBACK, PREC, TIMEOUT}
+{XF:04BM-BMB:1:,  EProf:, 1,  XPS2, 0,    5000,    5000,      5,    1}
+{XF:04BM-BMB:1:,  EProf:, 3,  XPS2, 2,    5000,    5000,      4,    1}
+}

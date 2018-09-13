@@ -1,0 +1,2 @@
+file "XFM_SR570_settings.req",        P=XF:04BM-BMC:SR570, M={CurrAmp:1}
+file "XFM_SR570_settings.req",        P=XF:04BM-BMC:SR570, M={CurrAmp:2}

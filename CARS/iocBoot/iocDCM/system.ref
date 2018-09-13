@@ -1,0 +1,22 @@
+[GENERAL]
+OptionalModuleNames =
+SharedLibraryModuleNames =  
+CorrectorISRPeriod = 125e-6					; seconds
+IRQDelay = 6e-6     						; seconds
+DACUpdateDelay = 110e-6						; seconds
+ProfileGeneratorISRRatio = 4
+ServitudesISRRatio = 10
+GatheringBufferSize = 1000000
+DelayBeforeStartup = 0							; seconds
+DebugTraceCommunicationBufferSize = 0			; characters, if 0 => no trace
+CIEFastCompensatedPCOMaximumDataNumber = 1000000 ;--- data numbers
+
+[GPIO]
+ExtendedGpioDacOutputRange = +/-10V
+
+[FEATURES]		; Only for STD or default PP firmware
+CompensationSystemPreFeedForwardMode = Disabled	; Disabled or Enabled
+CompensationSystemPostFeedForwardMode = Disabled ; Disabled or Enabled
+
+[DEBUG]
+PCI_DEBUG = Disabled               			; Disabled or Enabled

@@ -1,0 +1,7 @@
+file "XFM_MonoEnergy.db"
+{
+pattern
+{P,	       MONO, DESC,           EGU, PREC, SCANREC,           USEID, ID,        TWEAK}
+{XF:04BM-BMB:, En,  "Energy (04BM)", eV,  5,    XF:04BM-BMB:scan1, 1,     blank:,    10.00}
+}
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+cd /home/epics/support/SR570/iocBoot/iocstanfordSR570
+../../bin/linux-x86_64/stanfordSR570 st.cmd
+
+

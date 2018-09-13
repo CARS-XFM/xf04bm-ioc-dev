@@ -1,0 +1,7 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","ioc_esp_bmb")
+epicsEnvSet("TOP","/home/epics/support/ESP300")
+epicsEnvSet("EPICS_BASE","/home/epics/base")
+epicsEnvSet("ASYN","/home/epics/support/asyn")
+epicsEnvSet("MOTOR","/home/epics/support/motor")
+epicsEnvSet("AUTOSAVE","/home/epics/support/autosave")

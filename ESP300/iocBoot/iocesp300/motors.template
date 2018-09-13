@@ -1,0 +1,10 @@
+file "$(MOTOR)/db/motor.db"
+{
+pattern
+# N 1: GTS30V   x00 full steps/rev, xx:x gear box, 1mm lead screw pitch = 1mm/x00/? = 0.xxx
+# N 2: UTS100PP x00 full steps/rev, xx:x gear box, 2mm lead screw pitch = 2mm/x00/? = 0.xxx
+
+{P,             N,  M,                 DTYP,     C,  S,  DESC,        EGU,  DIR,  VELO,  VBAS,  ACCL,  BDST,  BVEL,  BACC,  MRES,     PREC,  DHLM,  DLLM,  INIT}
+{XF:04BMC-ES:,  1,  "DET1-Ax:Y:Mtr",  "ESP300",  0,  0,  "DET-Y",     mm,   Pos,  1.00,  0.1,   0.2,   0,     1,     0.2,   0.00005,  3,     25,   -5,     ""}
+{XF:04BMB-OP:,  2,  "MBV-Ax:Y:Mtr",   "ESP300",  1,  0,  "HRBVCAM-Y", mm,   Pos,  2.00,  0.1,   0.2,   0,     1,     0.2,   0.001,    3,     50,   -50     ""}
+}

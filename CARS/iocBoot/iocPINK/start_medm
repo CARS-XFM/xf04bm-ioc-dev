@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#medm -x -macro "P=13XRM:, R=traj1, M1=m1, TITLE=XPS(XRM)" trajectoryScan.adl &
+medm -x -macro "P=XF:04BM-ES:1:, R=traj1, M1=m1, TITLE=XPS(XFM)" trajectoryScan.adl &
+

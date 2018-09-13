@@ -1,0 +1,420 @@
+record(ao,"$(P)$(MONO):Energy") {
+        field(DESC, "Energy")
+	field(PREC, "$(PREC)")
+	field(EGU, "$(EGU)")
+	field(FLNK, "$(P)$(MONO):PutMoving.PROC PP MS")
+}
+
+record(ao,"$(P)$(MONO):E_RBV") {
+        field(DESC, "Energy Readback")
+	field(PREC, "$(PREC)")
+	field(EGU, "$(EGU)")
+}
+
+record(busy,"$(P)$(MONO):Moving") {
+	field(DESC,"Energy moving (SNL control)")
+}
+
+record(bo,"$(P)$(MONO):PutMoving") {
+	field(DOL,"1")
+	field(OUT,"$(P)$(MONO):Moving.VAL  PP MS")
+}
+
+record(bo,"$(P)$(MONO):SET") {
+	field(DESC, "Set Energy")
+	field(ONAM, "Set")
+	field(ZNAM, "Use")
+}
+
+record(ao,"$(P)$(MONO):width") {
+	field(DESC, "channel width")
+	field(VAL,  "12.50")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(ao,"$(P)$(MONO):dspace") {
+	field(DESC, "lattice spacing")
+	field(VAL,  "3.13555")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(ao,"$(P)$(MONO):height") {
+	field(DESC, "beam offset height")
+	field(VAL,  "25.0")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(ao,"$(P)$(MONO):timeout") {
+	field(DESC, "move timeout (sec)")
+	field(VAL,  "30.00")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(ao,"$(P)$(MONO):id_off") {
+	field(DESC, "(Und - Mono) Energy")
+	field(VAL,  "0.000")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(bo,"$(P)$(MONO):en_abort") {
+	field(DESC, "Abort Energy Move")
+	field(VAL,  "0")
+	field(ONAM, "Abort")
+	field(ZNAM, "Resume")
+}
+
+record(bo,"$(P)$(MONO):id_track") {
+	field(DESC, "Undulator Tracking")
+	field(VAL,  "1")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+record(bo,"$(P)$(MONO):theta_track") {
+	field(DESC, "Tracking when theta moves")
+	field(VAL,  "1")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+record(bo,"$(P)$(MONO):id_wait") {
+	field(DESC, "E Move wait for ID Done")
+	field(VAL,  "1")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+record(bo,"$(P)$(MONO):id_set_off") {
+	field(DESC, "Set ID Offset to Current Offset")
+	field(VAL,  "0")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+##record(longout,"$(P)$(MONO):id_harmonic") {
+##	field(DESC, "Und harmonic to use")
+##	field(VAL,  "1")
+##}
+
+##record(mbbo,"$(P)$(MONO):id_control_mode") {
+##	field(DESC, "Undulator control mode")
+##	field(ZRVL, "0")
+##	field(ZRST, "Energy")
+##	field(ONVL, "1")
+##	field(ONST, "Gap")
+##}
+
+record(bo,"$(P)$(MONO):compute_mono_positions") {
+	field(DESC, "Compute mono positions")
+	field(VAL,  "0")
+	field(ONAM, "Done")
+	field(ZNAM, "Compute")
+}
+
+record(longout,"$(P)$(MONO):num_mono_positions") {
+	field(DESC, "Number of mono positions")
+	field(VAL,  "1000")
+}
+
+record(waveform,"$(P)$(MONO):mono_angles") {
+	field(DESC, "Mono angle array")
+	field(FTVL, "DOUBLE")
+	field(NELM, "10000")
+}
+
+record(waveform,"$(P)$(MONO):mono_heights") {
+	field(DESC, "Mono height array")
+	field(FTVL, "DOUBLE")
+	field(NELM, "10000")
+}
+
+##record(ao,"$(P)$(MONO):UndEnergyTweakVal") {
+##	field(DESC, "Undulator energy tweak value")
+##	field(VAL,  ".1")
+##	field(PREC, "3")
+##	field(EGU,  "keV")
+##}
+
+##record(transform,"$(P)$(MONO):UndEnergyTweak") {
+##	field(DESC, "Tweak undulator energy")
+##	field(CLCD,"a?c-e:b?c+e:c")
+##	field(INPC,"$(ID)EnergySet.VAL  NPP NMS")
+##	field(INPE,"$(P)$(MONO):UndEnergyTweakVal NPP NMS")
+##	field(OUTD,"$(ID)ScanEnergy.VAL  PP MS")
+##	field(OUTF,"$(P)$(MONO):UndEnergyTweak.A  NPP NMS")
+##	field(OUTG,"$(P)$(MONO):UndEnergyTweak.B  NPP NMS")
+##	field(PREC,"$(PREC)")
+##}
+
+##record(ao,"$(P)$(MONO):UndGapTweakVal") {
+##	field(DESC, "Undulator gap tweak value")
+##	field(VAL,  ".1")
+##	field(PREC, "3")
+##	field(EGU,  "mm")
+##}
+
+##record(transform,"$(P)$(MONO):UndGapTweak") {
+##	field(DESC, "Tweak undulator gap")
+##	field(CLCD,"a?c-e:b?c+e:c")
+##	field(INPC,"$(ID)GapSet.VAL  NPP NMS")
+##	field(INPE,"$(P)$(MONO):UndGapTweakVal NPP NMS")
+##	field(OUTD,"$(ID)ScanGap.VAL  PP MS")
+##	field(OUTF,"$(P)$(MONO):UndGapTweak.A  NPP NMS")
+##	field(OUTG,"$(P)$(MONO):UndGapTweak.B  NPP NMS")
+##	field(PREC,"$(PREC)")
+##}
+
+record(bo,"$(P)$(MONO):y2_track") {
+	field(DESC, "2nd Xtal Height Tracking")
+	field(VAL,  "1")
+	field(ONAM, "Fixed Offset")
+	field(ZNAM, "Channel Cut")
+}
+
+record(ao,"$(P)$(MONO):y2_off") {
+	field(DESC, "2nd Xtal Height Offset")
+	field(VAL,  "0.000")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(ao,"$(P)$(MONO):y2_mvmin") {
+	field(DESC, "Min. 2nd XTAL Y Move (mm)")
+	field(VAL,  "0.0030")
+	field(PREC, "5")
+	field(EGU,  "$(EGU)")
+}
+
+record(bo,"$(P)$(MONO):use_feedback") {
+	field(DESC, "Flag to wait for Feedback")
+	field(VAL,  "0")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+record(bo,"$(P)$(MONO):verbose") {
+	field(DESC, "Print Mono Debugging Info")
+	field(VAL,  "0")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+record(ao,"$(P)$(MONO):tweakval") {
+	field(DESC, "energy tweak value")
+	field(VAL,  "$(TWEAK)")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+##record(bo,"$(P)$(MONO):use_id") {
+##	field(DESC, "Use Undulator")
+##	field(VAL,  "$(USEID)")
+##	field(ONAM, "Yes")
+##	field(ZNAM, "No")
+##}
+
+record(transform,"$(P)$(MONO):tweak") {
+	field(DESC, "Tweak Energy")
+	field(CLCD,"a?c-e:b?c+e:c")
+	field(INPC,"$(P)$(MONO):Energy  NPP NMS")
+	field(INPE,"$(P)$(MONO):tweakval")
+	field(OUTD,"$(P)$(MONO):Energy  PP MS")
+	field(OUTF,"$(P)$(MONO):tweak.A  NPP NMS")
+	field(OUTG,"$(P)$(MONO):tweak.B  NPP NMS")
+	field(PREC,"$(PREC)")
+}
+
+record(scanparm,"$(P)$(MONO):scanParms") {
+	field(PREC,"6")
+	field(PRE,"4")
+	field(OPRE,"$(SCANREC).CMND PP MS")
+	field(OSM,"$(SCANREC).P1SM PP MS")
+	field(OAR,"$(SCANREC).P1AR PP MS")
+	field(OAFT,"$(SCANREC).PASM PP MS")
+	field(PPV,"$(P)$(MONO):Energy")
+	field(RPV,"$(P)$(MONO):Energy")
+	field(OPPV,"$(SCANREC).P1PV PP MS")
+	field(ORPV,"$(SCANREC).R1PV PP MS")
+	field(OSP,"$(SCANREC).P1SP PP MS")
+	field(OEP,"$(SCANREC).P1EP PP MS")
+	field(ONP,"$(SCANREC).NPTS PP MS")
+	field(SC,"1")
+	field(AR,"1")
+        field(AFT,"2")
+	field(NP,"10")
+	field(OSC,"$(P)$(MONO):scanpSEQ.DO1 PP MS")
+	field(IMP,"$(SCANREC).MPTS NPP NMS")
+	field(IACT,"$(SCANREC).EXSC NPP NMS")
+}
+
+record(seq,"$(P)$(MONO):scanpSEQ")
+{
+	field(DLY1,"0.2")
+	field(LNK1,"$(SCANREC).EXSC NPP NMS")
+}
+
+
+record(ao,"$(P)$(MONO):DummyUND:EnSet") {
+	field(DESC, "Dummy UND Energy")
+	field(VAL,  "10.0000")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(ao,"$(P)$(MONO):DummyUND:Energy") {
+	field(DESC, "Dummy UND Energy")
+	field(VAL,  "10.0000")
+	field(PREC, "$(PREC)")
+	field(EGU,  "$(EGU)")
+}
+
+record(bo,"$(P)$(MONO):DummyUND:Start") {
+	field(DESC, "Dummy UND Start")
+	field(VAL,  "0")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+record(bo,"$(P)$(MONO):DummyUND:Busy") {
+	field(DESC, "Dummy UND Busy")
+	field(VAL,  "0")
+	field(ONAM, "Yes")
+	field(ZNAM, "No")
+}
+
+
+#####
+#####
+
+record(ao, "$(P)$(MONO):Mono111DSpace")
+{
+    field(VAL,  "3.13479")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono220DSpace")
+{
+    field(VAL,  "1.92")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono311DSpace")
+{
+    field(VAL,  "1.63673")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono111ThetaOffset")
+{
+    field(VAL,  "0.32394")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono220ThetaOffset")
+{
+    field(VAL,  "0.33")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono311ThetaOffset")
+{
+    field(VAL,  "0.10969")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono111HeightOffset")
+{
+    field(VAL,  "0.0")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono220HeightOffset")
+{
+    field(VAL,  "0.0")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono311HeightOffset")
+{
+    field(VAL,  "0.0")
+    field(PREC, "5")
+}
+
+record(ao, "$(P)$(MONO):Mono111Pitch")
+{
+    field(VAL,  "0.165")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono220Pitch")
+{
+    field(VAL,  "0.192")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono311Pitch")
+{
+    field(VAL,  "0.296")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono111Roll")
+{
+    field(VAL,  "0.593")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono220Roll")
+{
+    field(VAL,  "0.415")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono311Roll")
+{
+    field(VAL,  "0.470")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono111MonoX")
+{
+    field(VAL,  "0.0")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono220MonoX")
+{
+    field(VAL,  "-15.0")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):Mono311MonoX")
+{
+    field(VAL,  "15.0")
+    field(PREC, "4")
+}
+
+record(ao, "$(P)$(MONO):MonoBypassMonoX")
+{
+    field(VAL,  "-44.0")
+    field(PREC, "4")
+}
+
+
+record(mbbo, "$(P)$(MONO):MonoPosition")
+{
+    field(PINI, "YES")
+    field(ZRVL, "0")
+    field(ZRST, "Si 111")
+    field(ONVL, "1")
+    field(ONST, "Si 220")
+    field(TWVL, "2")
+    field(TWST, "Si 311")
+    field(THVL, "3")
+    field(THST, "Pink")
+}

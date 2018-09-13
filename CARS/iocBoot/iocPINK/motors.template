@@ -1,0 +1,40 @@
+file "$(CARS)/CARSApp/Db/asynMotor.db"
+{
+pattern
+{P,             N, M,  DTYP,        PORT, ADDR, DESC,    EGU, DIR, VELO, VBAS, ACCL, BDST, BVEL, BACC, SREV,   UREV, PREC, DHLM,  DLLM}
+{XF:04BM-ES:2:, 1, m1, "asynMotor", XPS3, 0,    "xyz_x", mm,  Pos, 5.0,  1.0,  0.5,  0.0,  1.0,  0.2,  100000, 1.0,  5,    12.4, -12.4}
+{XF:04BM-ES:2:, 2, m2, "asynMotor", XPS3, 1,    "xyz_y", mm,  Pos, 5.0,  1.0,  0.5,  0.0,  1.0,  0.2,  100000, 1.0,  5,    12.4, -12.4}
+{XF:04BM-ES:2:, 3, m3, "asynMotor", XPS3, 2,    "xyz_z", mm,  Pos, 5.0,  1.0,  0.5,  0.0,  1.0,  0.2,  100000, 1.0,  5,    12.4, -12.4}
+}
+
+file "$(MOTOR)/motorApp/Db/profileMoveController.template"
+{
+pattern
+{P,             R,      PORT, NAXES, NPOINTS, NPULSES, TIMEOUT}
+{XF:04BM-ES:2:, Prof2:, XPS3, 3,     2000,    2000,    1}
+}
+
+file "$(MOTOR)/db/profileMoveControllerXPS.template"
+{
+pattern
+{P,             R,      PORT, NAXES, NPOINTS, NPULSES, TIMEOUT}
+{XF:04BM-ES:2:, Prof2:, XPS3, 3,     2000,    2000,    1}
+}
+
+file "$(MOTOR)/motorApp/Db/profileMoveAxis.template"
+{
+pattern
+{P,             R,      M, PORT, ADDR, NPOINTS, NREADBACK, MOTOR,           PREC, TIMEOUT}
+{XF:04BM-ES:2:, Prof2:, 1, XPS3, 0,    2000,    2000,      XF:04BM-ES:2:m1, 5,    1}
+{XF:04BM-ES:2:, Prof2:, 2, XPS3, 1,    2000,    2000,      XF:04BM-ES:2:m2, 5,    1}
+{XF:04BM-ES:2:, Prof2:, 3, XPS3, 2,    2000,    2000,      XF:04BM-ES:2:m3, 5,    1}
+}
+
+file "$(MOTOR)/motorApp/Db/profileMoveAxisXPS.template"
+{
+pattern
+{P,             R,      M, PORT, ADDR, NPOINTS, NREADBACK, PREC, TIMEOUT}
+{XF:04BM-ES:2:, Prof2:, 1, XPS3, 0,    2000,    2000,      5,    1}
+{XF:04BM-ES:2:, Prof2:, 2, XPS3, 1,    2000,    2000,      5,    1}
+{XF:04BM-ES:2:, Prof2:, 3, XPS3, 2,    2000,    2000,      5,    1}
+}

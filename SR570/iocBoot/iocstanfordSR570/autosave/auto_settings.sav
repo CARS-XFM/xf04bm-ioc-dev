@@ -1,0 +1,210 @@
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 180913-105353
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_bput_dis 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_initCalc 1000
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_putFO 0
+XF:04BM-BMC:SR570{CurrAmp:1}reset *RST
+XF:04BM-BMC:SR570{CurrAmp:1}filter_reset ROLD
+XF:04BM-BMC:SR570{CurrAmp:1}SR_recentlyStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_rebootStatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_rebootTime Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_statusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_0_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_0_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_0_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_1_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_1_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_1_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_2_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_2_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_2_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_3_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_3_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_3_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_4_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_4_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_4_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_5_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_5_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_5_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_6_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_6_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_6_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}SR_7_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:1}SR_7_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:1}SR_7_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:1}offset_sign 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_on 0
+XF:04BM-BMC:SR570{CurrAmp:1}bias_on 0
+XF:04BM-BMC:SR570{CurrAmp:1}bias_dec 0
+XF:04BM-BMC:SR570{CurrAmp:1}bias_inc 0
+XF:04BM-BMC:SR570{CurrAmp:1}invert_on 1
+XF:04BM-BMC:SR570{CurrAmp:1}blank_on 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_cal 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_u_dec 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_u_inc 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_cal_sav 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_sign_sav 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_cal_bput 1
+XF:04BM-BMC:SR570{CurrAmp:1}off_uncal_set 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_heartbeat 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_i_am_alive 1
+XF:04BM-BMC:SR570{CurrAmp:1}SR_deadIfZero 0
+XF:04BM-BMC:SR570{CurrAmp:1}sens_num 0
+XF:04BM-BMC:SR570{CurrAmp:1}sens_unit 1
+XF:04BM-BMC:SR570{CurrAmp:1}offset_num 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_unit 0
+XF:04BM-BMC:SR570{CurrAmp:1}filter_type 0
+XF:04BM-BMC:SR570{CurrAmp:1}low_freq 0
+XF:04BM-BMC:SR570{CurrAmp:1}high_freq 0
+XF:04BM-BMC:SR570{CurrAmp:1}gain_mode 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_rebootStatus 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_0_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_1_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_2_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_3_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_4_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_5_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_6_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_7_Status 0
+XF:04BM-BMC:SR570{CurrAmp:1}init 0
+XF:04BM-BMC:SR570{CurrAmp:1}init1 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_u_reput 0
+XF:04BM-BMC:SR570{CurrAmp:1}sens_put 9
+XF:04BM-BMC:SR570{CurrAmp:1}offset_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_sign_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}bias_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}bias_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}filter_type_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}low_freq_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}high_freq_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}gain_mode_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}invert_on_put 1
+XF:04BM-BMC:SR570{CurrAmp:1}blank_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_cal_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_put 1000
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_put1 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_init 1000
+XF:04BM-BMC:SR570{CurrAmp:1}SR_0_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_1_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_2_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_3_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_4_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_5_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_6_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}SR_7_State 0
+XF:04BM-BMC:SR570{CurrAmp:1}sens_calc 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_calc 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_sign_calc 0
+XF:04BM-BMC:SR570{CurrAmp:1}bias_tweak 0
+XF:04BM-BMC:SR570{CurrAmp:1}low_freq_calc 0
+XF:04BM-BMC:SR570{CurrAmp:1}high_freq_calc 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_u_tweak 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_sign_bput 0
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_bput 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_bput_dis 1
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_initCalc 1000
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_putFO 0
+XF:04BM-BMC:SR570{CurrAmp:2}reset *RST
+XF:04BM-BMC:SR570{CurrAmp:2}filter_reset ROLD
+XF:04BM-BMC:SR570{CurrAmp:2}SR_recentlyStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_rebootStatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_rebootTime Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_statusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_0_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_0_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_0_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_1_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_1_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_1_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_2_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_2_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_2_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_3_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_3_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_3_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_4_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_4_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_4_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_5_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_5_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_5_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_6_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_6_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_6_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}SR_7_Name Not In Use
+XF:04BM-BMC:SR570{CurrAmp:2}SR_7_StatusStr Status unknown
+XF:04BM-BMC:SR570{CurrAmp:2}SR_7_Time Not yet saved
+XF:04BM-BMC:SR570{CurrAmp:2}offset_sign 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_on 0
+XF:04BM-BMC:SR570{CurrAmp:2}bias_on 0
+XF:04BM-BMC:SR570{CurrAmp:2}bias_dec 0
+XF:04BM-BMC:SR570{CurrAmp:2}bias_inc 0
+XF:04BM-BMC:SR570{CurrAmp:2}invert_on 1
+XF:04BM-BMC:SR570{CurrAmp:2}blank_on 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_cal 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_u_dec 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_u_inc 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_cal_sav 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_sign_sav 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_cal_bput 1
+XF:04BM-BMC:SR570{CurrAmp:2}off_uncal_set 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_heartbeat 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_i_am_alive 1
+XF:04BM-BMC:SR570{CurrAmp:2}SR_deadIfZero 0
+XF:04BM-BMC:SR570{CurrAmp:2}sens_num 0
+XF:04BM-BMC:SR570{CurrAmp:2}sens_unit 1
+XF:04BM-BMC:SR570{CurrAmp:2}offset_num 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_unit 0
+XF:04BM-BMC:SR570{CurrAmp:2}filter_type 0
+XF:04BM-BMC:SR570{CurrAmp:2}low_freq 0
+XF:04BM-BMC:SR570{CurrAmp:2}high_freq 0
+XF:04BM-BMC:SR570{CurrAmp:2}gain_mode 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_rebootStatus 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_0_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_1_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_2_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_3_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_4_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_5_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_6_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_7_Status 0
+XF:04BM-BMC:SR570{CurrAmp:2}init 0
+XF:04BM-BMC:SR570{CurrAmp:2}init1 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_u_reput 0
+XF:04BM-BMC:SR570{CurrAmp:2}sens_put 9
+XF:04BM-BMC:SR570{CurrAmp:2}offset_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_sign_put 1
+XF:04BM-BMC:SR570{CurrAmp:2}offset_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}bias_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}bias_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}filter_type_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}low_freq_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}high_freq_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}gain_mode_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}invert_on_put 1
+XF:04BM-BMC:SR570{CurrAmp:2}blank_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_cal_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_put 1000
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_put1 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_init 1000
+XF:04BM-BMC:SR570{CurrAmp:2}SR_0_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_1_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_2_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_3_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_4_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_5_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_6_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}SR_7_State 0
+XF:04BM-BMC:SR570{CurrAmp:2}sens_calc 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_calc 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_sign_calc 0
+XF:04BM-BMC:SR570{CurrAmp:2}bias_tweak 0
+XF:04BM-BMC:SR570{CurrAmp:2}low_freq_calc 0
+XF:04BM-BMC:SR570{CurrAmp:2}high_freq_calc 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_u_tweak 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_sign_bput 0
+XF:04BM-BMC:SR570{CurrAmp:2}off_u_bput 0
+<END>

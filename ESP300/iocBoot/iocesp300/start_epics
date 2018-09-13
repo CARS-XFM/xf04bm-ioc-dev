@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /home/epics/support/ESP300/iocBoot/iocesp300
+../../bin/linux-x86_64/esp300 st.cmd

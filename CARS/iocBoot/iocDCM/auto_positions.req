@@ -1,0 +1,5 @@
+file "XFM_motor_positions.req", P=$(P), M=m1
+file "XFM_motor_positions.req", P=$(P), M=m2
+file "XFM_motor_positions.req", P=$(P), M=m3
+file "XFM_motor_positions.req", P=$(P), M=m4
+file "XFM_motor_positions.req", P=$(P), M=m5

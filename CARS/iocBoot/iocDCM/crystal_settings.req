@@ -1,0 +1,22 @@
+file "XFM_mono_params.req"   P=$(P), M=Mono111DSpace
+file "XFM_mono_params.req"   P=$(P), M=Mono111ThetaOffset
+file "XFM_mono_params.req"   P=$(P), M=Mono111HeightOffset
+file "XFM_mono_params.req"   P=$(P), M=Mono111Pitch
+file "XFM_mono_params.req"   P=$(P), M=Mono111Roll
+file "XFM_mono_params.req"   P=$(P), M=Mono111MonoX
+
+file "XFM_mono_params.req"   P=$(P), M=Mono220DSpace
+file "XFM_mono_params.req"   P=$(P), M=Mono220ThetaOffset
+file "XFM_mono_params.req"   P=$(P), M=Mono220HeightOffset
+file "XFM_mono_params.req"   P=$(P), M=Mono220Pitch
+file "XFM_mono_params.req"   P=$(P), M=Mono220Roll
+file "XFM_mono_params.req"   P=$(P), M=Mono220MonoX
+
+file "XFM_mono_params.req"   P=$(P), M=Mono311DSpace
+file "XFM_mono_params.req"   P=$(P), M=Mono311ThetaOffset
+file "XFM_mono_params.req"   P=$(P), M=Mono311HeightOffset
+file "XFM_mono_params.req"   P=$(P), M=Mono311Pitch
+file "XFM_mono_params.req"   P=$(P), M=Mono311Roll
+file "XFM_mono_params.req"   P=$(P), M=Mono311MonoX
+
+file "XFM_mono_params.req"   P=$(P), M=MonoBypassMonoX
