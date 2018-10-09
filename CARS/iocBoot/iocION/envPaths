@@ -1,4 +1,4 @@
-epicsEnvSet("IOC","iocXFM")
+epicsEnvSet("IOC","iocION")
 epicsEnvSet("TOP","/home/epics/support/CARS")
 epicsEnvSet("SUPPORT","/home/epics/support")
 epicsEnvSet("AREA_DETECTOR","/home/epics/support/areaDetector")

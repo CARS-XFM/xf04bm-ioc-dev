@@ -11,7 +11,7 @@ grecord(stringin,"$(P)$(Q):Desc") {
 
 grecord(stringin,"$(P)$(Q):Volts") {
         field(DESC, "IonCh Voltage")
-        field(VAL,  "XF:04BM-ES:1{Sclr:2}scaler1.S2")
+        field(VAL,  "XF:04BM-ES:1{Sclr:2}scaler1.S5")
 }
 
 grecord(ao,"$(P)$(Q):Length") {

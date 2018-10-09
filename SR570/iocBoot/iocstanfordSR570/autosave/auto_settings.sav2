@@ -1,5 +1,5 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 180913-105353
-XF:04BM-BMC:SR570{CurrAmp:1}off_u_bput_dis 0
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 181009-141930
+XF:04BM-BMC:SR570{CurrAmp:1}off_u_bput_dis 1
 XF:04BM-BMC:SR570{CurrAmp:1}off_u_initCalc 1000
 XF:04BM-BMC:SR570{CurrAmp:1}off_u_putFO 0
 XF:04BM-BMC:SR570{CurrAmp:1}reset *RST
@@ -33,7 +33,7 @@ XF:04BM-BMC:SR570{CurrAmp:1}SR_7_Name Not In Use
 XF:04BM-BMC:SR570{CurrAmp:1}SR_7_StatusStr Status unknown
 XF:04BM-BMC:SR570{CurrAmp:1}SR_7_Time Not yet saved
 XF:04BM-BMC:SR570{CurrAmp:1}offset_sign 0
-XF:04BM-BMC:SR570{CurrAmp:1}offset_on 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_on 1
 XF:04BM-BMC:SR570{CurrAmp:1}bias_on 0
 XF:04BM-BMC:SR570{CurrAmp:1}bias_dec 0
 XF:04BM-BMC:SR570{CurrAmp:1}bias_inc 0
@@ -49,9 +49,9 @@ XF:04BM-BMC:SR570{CurrAmp:1}off_uncal_set 0
 XF:04BM-BMC:SR570{CurrAmp:1}SR_heartbeat 0
 XF:04BM-BMC:SR570{CurrAmp:1}SR_i_am_alive 1
 XF:04BM-BMC:SR570{CurrAmp:1}SR_deadIfZero 0
-XF:04BM-BMC:SR570{CurrAmp:1}sens_num 0
+XF:04BM-BMC:SR570{CurrAmp:1}sens_num 2
 XF:04BM-BMC:SR570{CurrAmp:1}sens_unit 1
-XF:04BM-BMC:SR570{CurrAmp:1}offset_num 0
+XF:04BM-BMC:SR570{CurrAmp:1}offset_num 4
 XF:04BM-BMC:SR570{CurrAmp:1}offset_unit 0
 XF:04BM-BMC:SR570{CurrAmp:1}filter_type 0
 XF:04BM-BMC:SR570{CurrAmp:1}low_freq 0
@@ -70,10 +70,10 @@ XF:04BM-BMC:SR570{CurrAmp:1}SR_7_Status 0
 XF:04BM-BMC:SR570{CurrAmp:1}init 0
 XF:04BM-BMC:SR570{CurrAmp:1}init1 0
 XF:04BM-BMC:SR570{CurrAmp:1}offset_u_reput 0
-XF:04BM-BMC:SR570{CurrAmp:1}sens_put 9
-XF:04BM-BMC:SR570{CurrAmp:1}offset_put 0
-XF:04BM-BMC:SR570{CurrAmp:1}off_sign_put 0
-XF:04BM-BMC:SR570{CurrAmp:1}offset_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:1}sens_put 11
+XF:04BM-BMC:SR570{CurrAmp:1}offset_put 4
+XF:04BM-BMC:SR570{CurrAmp:1}off_sign_put 1
+XF:04BM-BMC:SR570{CurrAmp:1}offset_on_put 1
 XF:04BM-BMC:SR570{CurrAmp:1}bias_on_put 0
 XF:04BM-BMC:SR570{CurrAmp:1}bias_put 0
 XF:04BM-BMC:SR570{CurrAmp:1}filter_type_put 0
@@ -137,7 +137,7 @@ XF:04BM-BMC:SR570{CurrAmp:2}SR_7_Name Not In Use
 XF:04BM-BMC:SR570{CurrAmp:2}SR_7_StatusStr Status unknown
 XF:04BM-BMC:SR570{CurrAmp:2}SR_7_Time Not yet saved
 XF:04BM-BMC:SR570{CurrAmp:2}offset_sign 0
-XF:04BM-BMC:SR570{CurrAmp:2}offset_on 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_on 1
 XF:04BM-BMC:SR570{CurrAmp:2}bias_on 0
 XF:04BM-BMC:SR570{CurrAmp:2}bias_dec 0
 XF:04BM-BMC:SR570{CurrAmp:2}bias_inc 0
@@ -153,10 +153,10 @@ XF:04BM-BMC:SR570{CurrAmp:2}off_uncal_set 0
 XF:04BM-BMC:SR570{CurrAmp:2}SR_heartbeat 0
 XF:04BM-BMC:SR570{CurrAmp:2}SR_i_am_alive 1
 XF:04BM-BMC:SR570{CurrAmp:2}SR_deadIfZero 0
-XF:04BM-BMC:SR570{CurrAmp:2}sens_num 0
+XF:04BM-BMC:SR570{CurrAmp:2}sens_num 7
 XF:04BM-BMC:SR570{CurrAmp:2}sens_unit 1
 XF:04BM-BMC:SR570{CurrAmp:2}offset_num 0
-XF:04BM-BMC:SR570{CurrAmp:2}offset_unit 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_unit 1
 XF:04BM-BMC:SR570{CurrAmp:2}filter_type 0
 XF:04BM-BMC:SR570{CurrAmp:2}low_freq 0
 XF:04BM-BMC:SR570{CurrAmp:2}high_freq 0
@@ -174,10 +174,10 @@ XF:04BM-BMC:SR570{CurrAmp:2}SR_7_Status 0
 XF:04BM-BMC:SR570{CurrAmp:2}init 0
 XF:04BM-BMC:SR570{CurrAmp:2}init1 0
 XF:04BM-BMC:SR570{CurrAmp:2}offset_u_reput 0
-XF:04BM-BMC:SR570{CurrAmp:2}sens_put 9
-XF:04BM-BMC:SR570{CurrAmp:2}offset_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}sens_put 16
+XF:04BM-BMC:SR570{CurrAmp:2}offset_put 9
 XF:04BM-BMC:SR570{CurrAmp:2}off_sign_put 1
-XF:04BM-BMC:SR570{CurrAmp:2}offset_on_put 0
+XF:04BM-BMC:SR570{CurrAmp:2}offset_on_put 1
 XF:04BM-BMC:SR570{CurrAmp:2}bias_on_put 0
 XF:04BM-BMC:SR570{CurrAmp:2}bias_put 0
 XF:04BM-BMC:SR570{CurrAmp:2}filter_type_put 0
