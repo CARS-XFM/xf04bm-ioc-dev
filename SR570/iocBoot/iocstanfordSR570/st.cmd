@@ -8,14 +8,17 @@ stanfordSR570_registerRecordDeviceDriver(pdbbase)
  ## Load record instances
 dbLoadRecords("$(IP)/ipApp/Db/SR570.db","P=XF:04BM-BMC:SR570,A={CurrAmp:1},PORT=BMCmoxa01")
 dbLoadRecords("$(IP)/ipApp/Db/SR570.db","P=XF:04BM-BMC:SR570,A={CurrAmp:2},PORT=BMCmoxa02")
+#dbLoadRecords("$(IP)/ipApp/Db/SR570.db","P=XF:04BM-BMC:SR570,A={CurrAmp:3},PORT=BMCmoxa03")
 
  ## Setup IP port for SR570 - thru Moxa NPort 6000
 drvAsynIPPortConfigure("BMCmoxa01", "10.4.130.53:4001")
 drvAsynIPPortConfigure("BMCmoxa02", "10.4.130.53:4002")
+#drvAsynIPPortConfigure("BMCmoxa03", "10.4.130.53:4003")
 
  ## save_restoreSet_status_prefix("XF:04BM-BMC:SR570{CurrAmp:x}")
 dbLoadRecords("$(AUTOSAVE)/asApp/Db/save_restoreStatus.db", "P=XF:04BM-BMC:SR570{CurrAmp:1}")
 dbLoadRecords("$(AUTOSAVE)/asApp/Db/save_restoreStatus.db", "P=XF:04BM-BMC:SR570{CurrAmp:2}")
+#dbLoadRecords("$(AUTOSAVE)/asApp/Db/save_restoreStatus.db", "P=XF:04BM-BMC:SR570{CurrAmp:3}")
 
  ## Debug-output level
 save_restoreSet_Debug(0)
